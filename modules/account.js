@@ -8,4 +8,6 @@ var myOutput = function(){
     return "Account Balance: \n" + dollarString;
 };
 
-module.exports = myOutput;
+exports.myOutput = myOutput;
+exports.dollarString = dollarString;
+
