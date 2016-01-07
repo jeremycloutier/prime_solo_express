@@ -1,7 +1,7 @@
 $(function(){
-    $('.display').on('click', function(){
+    $(".display").on('click', function(){
         console.log('clicked');
-        $.ajax('/getData').then(function(myOutput){
+        $.ajax('/get/data').then(function(myOutput){
             $(".showBalance").append("<p>" + myOutput + "</p>");
         });
     });
