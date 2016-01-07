@@ -1,0 +1,16 @@
+{
+  "name": "prime_solo_express-master",
+  "version": "1.0.0",
+  "description": "Create a basic node application using `npm init`. Add an `app.js` file. This is your entry point. Install express using `npm install express --save`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "jeremycloutier",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jquery": "^2.1.4"
+  }
+}
